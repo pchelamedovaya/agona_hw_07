@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 0;
+}
