@@ -36,7 +36,7 @@ export const tasksReducer = (state: TasksState = initState, action: Action) => {
         case "TASK_IS_DONE": {
             const updatedTasks = state.tasks.map((task) => {
                 if (task.id === action.payload) {
-                    return { ...task, done: true };
+                    return { ...task, done: !task.done };
                 }
                 return task;
             });
